@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+//main
 func main() {
 	ns := GetNutritionalScore(NutritionalData{
 		Energy:             EnergyFromKcal(100),
